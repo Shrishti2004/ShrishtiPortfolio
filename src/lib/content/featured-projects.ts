@@ -6,63 +6,42 @@ const featuredProjectsSection: FeaturedProjectsSectionType = {
   projects: [
     {
       id: getId(),
-      name: 'GetLifeGuard',
-      description: 'An E-Commerce platform for Self-Defense Keychain.',
+      name: 'BanduCart',
+      description: 'An E-Commerce Electronics Web Platform',
       tasks:
-        "As a freelancer, I understood the client's requirements and executed a plan to develop and design an e-commerce platform, including the frontend UI, backend setup with database, APIs, and integration with payment platforms.",
-      url: 'https://life-kit.vercel.app/',
-      img: 'https://life-kit.vercel.app/images/og.png',
+        "Built a responsive e-commerce web app for electronic items with React.js, MySQL, and Clerk authentication. Enhanced UX with cart persistence, toast notifications, and deployed on Vercel.",
+      url: 'https://bandu-cart.vercel.app/',
+      img: '/images/banducart.png',
       tags: [
-        'NextJs 14',
-        'TypeScript',
+        'React',
         'TailwindCSS',
-        'ShadCN',
-        'Prisma',
-        'Stripe',
+        'Github',
+        'Vercel',
+        
       ],
     },
     {
       id: getId(),
-      name: 'Valuemetrix',
-      description: 'An AI Powered Investment Platform.',
+      name: 'NetflixCloud',
+      description: 'A Netflix clone deployed on Cloud',
       tasks:
-        'I strategically planned project milestones, led a cross-functional team, established a design system, developed the website, and integrated Stripe payments with secure authentication.',
-      url: 'https://www.valuemetrix.io/',
-      img: 'https://www.valuemetrix.io/images/og.png',
-      tags: ['AI/ML', 'NextJs', 'TypeScript', 'TailwindCSS', 'Prisma'],
+        'I deployed a Netflix clone application on AWS using containerized deployment and Configured monitoring using CloudWatch',
+      url: 'https://github.com/Shrishti2004/Netflix-Cloud.git',
+      img: '/images/netflix.png',
+      tags: ['HTML', 'CSS', 'AWS', 'CloudWatch', 'Docker'],
     },
     {
       id: getId(),
-      name: 'Velvi Matrimony',
+      name: 'Personal Portfolio',
       description:
-        'A platform that redefines the way individuals find their life partners.',
+        'A personal portfolio to share my details',
       tasks:
-        'As a freelancer, I developed this project by planning, communicating with the client, gathering feedback, implementing UI & pages, and integrating real-time data fetching with filtering functionality.',
-      url: 'https://velvi.vercel.app/',
-      img: 'https://i.postimg.cc/tRS4GvzJ/Screenshot-2024-02-27-at-5-48-49-PM.png',
-      tags: ['NextJs', 'TypeScript', 'TailwindCSS', 'APIs'],
+        'I have created a personal portfolio using Typescript to showcase my Career, Education, Projects and Certification.',
+      url: 'https://shrishti-portfolio-nu.vercel.app/',
+      img: '/images/portfolio.png',
+      tags: ['NextJs', 'TypeScript', 'TailwindCSS', 'Verccel'],
     },
-    /*   {
-      id: getId(),
-      name: 'Integra',
-      description: 'An AI-Powered Leads Generation Platform.',
-      tasks:
-        'I strategically planned project milestones, led a cross-functional team, established a design system, developed the website, and integrated Stripe payments with secure authentication.',
-      url: 'https://www.integraleads.xyz/',
-      img: 'https://user-images.githubusercontent.com/68834718/279476369-2f69466a-71db-4da0-9afd-04f8f0efb621.jpeg',
-      tags: ['AI/ML', 'NextJs', 'TypeScript', 'TailwindCSS', 'Express'],
-    }, */
 
-    {
-      id: getId(),
-      name: 'Drafton',
-      description: 'The AI-powered platform that simplifies proposal creation.',
-      tasks:
-        'I designed and developed the landing page and implemented the dashboard by creating a user interface and integrating APIs.',
-      url: 'https://www.drafton.io/',
-      img: 'https://i.postimg.cc/4N6dsGcm/Screenshot-2024-06-17-at-11-05-22-PM.png',
-      tags: ['Open AI', 'NextJs', 'TypeScript', 'TailwindCSS', 'Prisma'],
-    },
   ],
 };
 

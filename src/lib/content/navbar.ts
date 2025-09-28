@@ -6,8 +6,8 @@ export const navbarSection: NavbarSectionType = {
     { name: 'about', url: '/#about' },
     { name: 'skills', url: '/#skills' },
     { name: 'career', url: '/#experience' },
-    { name: 'projects', url: '/#projects' },
-    { name: 'certificates', url: '/#projects' },
+    { name: 'projects', url: '/#featured-projects' },
+    { name: 'certificates', url: '/#certificates' },
     { name: 'contact', url: '/#contact' },
   ],
   cta: {
@@ -15,3 +15,4 @@ export const navbarSection: NavbarSectionType = {
     url: `/${resumeFileName}`,
   },
 };
+

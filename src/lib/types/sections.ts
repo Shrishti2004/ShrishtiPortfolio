@@ -61,9 +61,17 @@ export interface ProjectsSectionType extends Section {
 export interface FeaturedProjectsSectionType extends Section {
   projects: FeaturedProjectType[];
 }
-// export interface CertificatesSectionType extends Section{
-//   certificates: CertificateType[];
-// }
+export interface CertificateType {
+  id: string;
+  date: string;
+  title: string;
+  description: string;
+  link: string;
+  img: string;
+}
+export interface CertificatesSectionType extends Section {
+  certificates: CertificateType[];
+}
 
 export interface ContactSectionType extends Section {
   subtitle?: string;
