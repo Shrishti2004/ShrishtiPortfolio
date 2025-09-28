@@ -11,7 +11,7 @@ export const educationSection: ExperienceSectionType = {
       upto: "2026, Percentage: 71.50%",
       tasks: [
         "Pursuing Bachelor of Technology in Information Technology from Noida Institute of Engineering and Technology, affiliated with Dr. A.P.J. Abdul Kalam Technical University.",
-        "Maintaining CGPA of 7.51 while actively participating in technical projects and cultural activities.",
+        "Maintaining CGPA of 7.15 while actively participating in technical projects and cultural activities.",
         "Core Subjects: JavaPython, Data Structures, Algorithms, Object-Oriented Programming, Database Management, Computer Networks, Operating System, Web Technologies, Cloud Computing, Big Data, Software Development, Data Analysis, Machine Learning, Cybersecurity, Post Data Analysis",
       ],
     },

@@ -30,7 +30,7 @@ const About = () => {
               target="_blank"
               className="text-accent"
             >
-              Noida Institute of Engineering and Technology, Greater Noida.</Link> Percentage: 75.1% .
+              Noida Institute of Engineering and Technology, Greater Noida.</Link> Percentage: 71.50% .
               </p>
              <p>I'm a Cloud and Web Development enthusiast with hands-on practice in AWS, Docker, Java, SQL, and Web Technologies.</p>
           
