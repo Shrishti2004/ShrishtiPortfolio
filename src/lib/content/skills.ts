@@ -6,55 +6,68 @@ export const skillsSection: SkillsSectionType = {
   skills: [
     {
       id: getId(),
-      title: 'full stack development',
+      title: 'Cloud Computing',
       // animation lottie file: https://lottiefiles.com/
       lottie: {
-        light: '/lotties/frontend.json',
-        dark: '/lotties/frontend-dark.json',
+        light: '/lotties/Cloud.json',
+        dark: '/lotties/Cloud.json',
       },
       points: [
-        'Building full-stack web applications using Next.js with TypeScript, TailwindCSS, ShadCN, and Prisma',
-        'Developing responsive single-page applications using React.js',
-        'Creating RESTful APIs using Express for backend development',
+        'I design and deploy applications on AWS using EC2, S3, IAM, and CI/CD pipelines with Jenkins, Docker, and SonarQube.',
+        'Experienced in automation, monitoring, and secure deployments.',
+      ],
+      softwareSkills: [
+        // iconify icons: https://icon-sets.iconify.design/
+        { name: 'aws', icon: 'vscode-icons:file-type-aws' },
+        { name: 'azure', icon: 'vscode-icons:file-type-azure' },
+        { name: 'mongodb', icon: 'vscode-icons:file-type-sql' },
+        { name: 'docker', icon: 'vscode-icons:file-type-docker'},
+        { name: 'python', icon: 'vscode-icons:file-type-python' },
+        { name: 'github', icon: "simple-icons:github" },
+      ],
+    },
+    {
+      id: getId(),
+      title: 'Web Development',
+      lottie: {
+        light: '/lotties/fullstack.json',
+        dark: '/lotties/fullstack.json',
+      },
+      points: [
+        'Experience in designing user-friendly interfaces with figma',
+        'Providing user-friendly design solutions',
       ],
       softwareSkills: [
         // iconify icons: https://icon-sets.iconify.design/
         { name: 'html-5', icon: 'vscode-icons:file-type-html' },
         { name: 'CSS-3', icon: 'vscode-icons:file-type-css' },
-        { name: 'sass', icon: 'vscode-icons:file-type-sass' },
         { name: 'javaScript', icon: 'vscode-icons:file-type-js-official' },
-        {
-          name: 'typeScript',
-          icon: 'vscode-icons:file-type-typescript-official',
-        },
-        { name: 'nodejs', icon: 'logos:nodejs-icon' },
-        { name: 'prisma', icon: 'vscode-icons:file-type-prisma' },
         { name: 'reactjs', icon: 'logos:react' },
+        { name: 'nodejs', icon: 'logos:nodejs-icon' },
         { name: 'nextjs', icon: 'logos:nextjs-icon' },
-        // { name: 'angularjs', icon: 'logos:angular-icon' },
         { name: 'tailwindcss', icon: 'logos:tailwindcss-icon' },
-        { name: 'redux', icon: 'logos:redux' },
         { name: 'database', icon: 'vscode-icons:file-type-sql' },
-        { name: 'jest', icon: 'vscode-icons:file-type-jest' },
+        { name: 'github', icon: "simple-icons:github" },
       ],
     },
     {
       id: getId(),
-      title: 'UI/UX designing',
+      title: 'Database Design & Management',
       lottie: {
         light: '/lotties/designing.json',
         dark: '/lotties/designing-dark.json',
       },
       points: [
-        'Experience in designing user-friendly interfaces with figma',
-        'Experience in developing design systems and style guides',
-        'Providing user-friendly design solutions',
+        "Designing efficient database schemas and relationships.",
+        "Experience with relational (MySQL, PostgreSQL) and NoSQL (MongoDB) databases.",
       ],
       softwareSkills: [
-        { name: 'figma', icon: 'logos:figma' },
-        { name: 'adobe illustrator', icon: 'logos:adobe-illustrator' },
-        { name: 'adobe photoshop', icon: 'logos:adobe-photoshop' },
+        { name: "MySQL", icon: "logos:mysql" },
+        { name: "PostgreSQL", icon: "logos:postgresql" },
+        { name: "MongoDB", icon: "vscode-icons:file-type-mongo" },
+        { name: "SQLite", icon: "vscode-icons:file-type-sqlite" },
       ],
-    },
-  ],
+    }
+  ]
+
 };

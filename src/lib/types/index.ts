@@ -41,6 +41,7 @@ export interface FeaturedProjectType
   tasks?: string;
 }
 
+
 export type StringKeyValueType = {
   [link: string]: string;
 };
